@@ -9,7 +9,7 @@
     "build": "esbuild main.js --bundle --outfile=dist/main.js --platform=node --target=node16 --format=cjs",
     "dev": "npm run build && node ./dist/main.js"
   },
-  "author": "",
+  "author": "Infinity Scripts",
   "license": "ISC",
   "dependencies": {
     "@solana/web3.js": "^1.95.5",

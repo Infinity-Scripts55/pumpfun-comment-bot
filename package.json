@@ -1,0 +1,30 @@
+{
+  "name": "replybot",
+  "version": "1.0.0",
+  "description": "Pump.Fun Comment/Reply Bot",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js",
+    "build": "esbuild main.js --bundle --outfile=dist/main.js --platform=node --target=node16 --format=cjs",
+    "dev": "npm run build && node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.5",
+    "axios": "^1.7.7",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "esbuild": "^0.21.5",
+    "form-data": "^4.0.1",
+    "https-proxy-agent": "^7.0.5",
+    "inquirer": "^10.0.4",
+    "node-fetch": "^3.3.2",
+    "node-machine-id": "^1.1.12",
+    "socks-proxy-agent": "^8.0.4",
+    "tweetnacl": "^1.0.3",
+    "user-agents": "^1.1.365"
+  }
+}

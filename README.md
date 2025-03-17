@@ -83,6 +83,7 @@ Monitors for new Pump.Fun Token Launches & Shills based on your shill.txt file c
 
 ### 7. Upload Image
 Uploads the image from /img folder to pump.fun (**REQUIRED TO RUN BEFORE ANY SHILL MODE / NEW IMAGE**)
+Line 7 of UploadImage.js requires a PUMPFUN auth token const AUTH_TOKEN = ''; please provide your own. 
 
 ### 8. Exit
 Exits the application

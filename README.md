@@ -82,8 +82,8 @@ Parses all replies of a mint, prompts for the index of the comment to reply to (
 Monitors for new Pump.Fun Token Launches & Shills based on your shill.txt file contents
 
 ### 7. Upload Image
-Uploads the image from /img folder to pump.fun (**REQUIRED TO RUN BEFORE ANY SHILL MODE / NEW IMAGE**)
-Line 7 of UploadImage.js requires a PUMPFUN auth token const AUTH_TOKEN = ''; please provide your own. 
+Uploads the image from /img folder to pump.fun (**REQUIRED TO RUN BEFORE ANY SHILL MODE / NEW IMAGE**) <br/>
+Line 7 of uploadImg.js requires a PUMPFUN auth token ```const AUTH_TOKEN = '';``` please provide your own. 
 
 ### 8. Exit
 Exits the application

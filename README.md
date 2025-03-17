@@ -56,6 +56,7 @@ Post comments from the wallets in wallets.txt file.
   - Amount of Comments
   - Delay Between Comments (milliseconds | 1000ms = 1s)
   - Mint: The Mint (CA/Token Address) you wish to target
+- Wallets must be in format of publicKey:privateKey (base58 format, same as phantom/bullX export)
 
 ### 3. Like Comments
 Like all comments from dev & randomly generated wallets.
